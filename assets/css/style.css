@@ -1,0 +1,87 @@
+body,html{
+height: 100%;
+font-family: 'Poor Story', cursive;
+color: black;
+}
+h1{
+font-family: 'Titan One', cursive;
+font-size: 28px;
+}
+h2{
+font-family: 'Poor Story', cursive;
+font-size: 36px;
+padding-top: 8px;
+}
+h3{
+font-family: 'Titan One', cursive;
+font-size: 24px;
+padding-top: 18px;
+}
+h4{
+font-family: 'Poor Story', cursive;
+font-size: 18px;
+padding-top: 24px;
+}
+p{
+font-family: 'Poor Story', cursive;
+font-size: 24px;
+padding-top: 16px;
+}
+p:first-of-type{
+padding-top: 30px;
+
+}
+#bg {
+/* The image used */
+background-image: 
+url(https://localtvkdvr.files.wordpress.com/2017/05/may-snow-toby-the-bernese-mountain-dog-at-loveland.jpg?quality=85&strip=all&w=2000);
+/* Full height */
+height: 100%; 
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.contain{
+width: 600px;
+height: 510px;
+margin: 0 auto;
+position: relative;
+padding-top: 80px;
+top: 20%;
+/* background-color: rgb(36, 36, 161,.4); */
+box-sizing: border-box;
+text-align: center;
+/* display: block; */
+}
+
+#borderImg{
+height: 100%;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+margin: 0 auto;
+
+}
+#imgFill{
+position: absolute;
+left: 50px;
+top: 52px;
+background-color: beige;
+width: 500px;
+height: 390px;
+z-index: 0;
+/* display: block; */
+/* opacity: .5; */
+}
+.text{
+position: absolute;
+z-index: 10;
+width: 600px;
+height: 510px;
+margin: 0 auto;
+padding-top: 10px;
+}
+
+
